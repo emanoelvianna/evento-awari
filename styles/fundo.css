@@ -1,0 +1,6 @@
+body {
+	background-image: url(../assets/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
