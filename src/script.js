@@ -10,7 +10,7 @@ button.onclick = function () {
 }
 
 // buscando o elemento que representa o botão de fechar o formulário
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("fechar")[0];
 var enviar = document.getElementById("enviar");
 
 // criando o comportamento para fechar o formulário

@@ -1,8 +1,4 @@
-.attrib {
-    color: #e0e0e0;
-}
-
-.fomulario {
+#formulario {
     display: none;
     position: fixed;
     z-index: 1;
@@ -16,7 +12,7 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.fomulario-conteudo {
+.formulario-conteudo {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -25,15 +21,15 @@
     text-align: justify;
 }
 
-.close {
+.fechar {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.fechar:hover,
+.fechar:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;

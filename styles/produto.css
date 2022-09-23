@@ -43,12 +43,12 @@
     margin-top: -20px;
 }
 
-.vantagens {
+.descricao {
     background-color: #F2F6F7;
     padding: 10px 25px;
 }
 
-.vantagens .destaque {
+.descricao .destaque {
     background-image: -webkit-linear-gradient(left, #0AAFFA, #27CAA2 80%);
     background-image: -o-linear-gradient(left, #0AAFFA, #27CAA2 80%);
     background-image: linear-gradient(to left, #0AAFFA, #27CAA2 80%);
@@ -62,16 +62,16 @@
     width: 190px;
 }
 
-.vantagens .texto {
+.descricao .texto {
     padding-bottom: 10px;
     border-bottom: 1px solid #e0e0e0;
 }
 
-.vantagens .fa-check {
+.descricao .fa-check {
     color: #71d65d;
 }
 
-.vantagens .fa-times {
+.descricao .fa-times {
     color: #d12525;
 }
 

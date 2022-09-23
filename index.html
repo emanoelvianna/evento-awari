@@ -25,15 +25,16 @@
   <div class="background"></div>
   <div class="backdrop"></div>
 
-  <div class="section produtos" id="produtos">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
+  <div class="sessao-produtos" id="produtos">
+    <div class="container"> <!-- class do bootstrap -->
+      <div class="row d-flex justify-content-center"><!-- class do bootstrap -->
 
         <!-- Produto 1 -->
         <div class="col-md-4">
+          <!-- class do bootstrap -->
           <div class="box-produto">
             <div class="prod-header prod-1"></div>
-            <div class="vantagens">
+            <div class="descricao">
               <p class="destaque">Fusca</p>
               <p class="prod-preco">R$25.000,00</p>
               <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
@@ -45,10 +46,10 @@
         </div>
 
         <!-- Produto 2 -->
-        <div class="col-md-4">
-          <div class="box-produto gold-box">
-            <div class="prod-header gold-destaque prod-2"> </div>
-            <div class="vantagens">
+        <div class="col-md-4"><!-- class do bootstrap -->
+          <div class="box-produto">
+            <div class="prod-header prod-2"> </div>
+            <div class="descricao">
               <p class="destaque">Caminhão</p>
               <p class="prod-preco">R$25.000,00</p>
               <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
@@ -60,10 +61,10 @@
         </div>
 
         <!-- Produto 3 -->
-        <div class="col-md-4">
-          <div class="box-produto gold-box">
-            <div class="prod-header gold-destaque prod-3"></div>
-            <div class="vantagens">
+        <div class="col-md-4"><!-- class do bootstrap -->
+          <div class="box-produto">
+            <div class="prod-header prod-3"></div>
+            <div class="descricao">
               <p class="destaque">Motocicleta</p>
               <p class="prod-preco">R$25.000,00</p>
               <p class="texto"><i class="fa fa-check"></i> Detalhe Adicional</p>
@@ -76,15 +77,15 @@
       </div>
 
       <!-- formulário da reserva -->
-      <div id="formulario" class="modal">
-        <div class="form-group modal-content">
-          <div class="modal-body">
-            <span class="close">&times;</span>
-            <label for="exampleInputEmail1">Reservar item selecionado</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="Seu e-mail ou número de telefone celular">
+      <div id="formulario">
+        <div class="formulario-conteudo">
+          <div class="modal-body"> <!-- class do bootstrap -->
+            <span class="fechar">&times;</span>
+            <label>Reservar item selecionado</label>
+            <input type="email" class="form-control" aria-describedby="email"
+              placeholder="Seu e-mail ou número de telefone celular"> <!-- class do bootstrap -->
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer"> <!-- class do bootstrap -->
             <button id="enviar" type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
